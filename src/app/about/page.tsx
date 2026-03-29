@@ -63,20 +63,6 @@ export default function About() {
               tirer le meilleur des données récoltées et transformer chaque analyse en décision claire.
             </p>
 
-            {/* Stats */}
-            <div className="flex gap-8 mb-10">
-              {[
-                { value: "4 ans", label: "Python" },
-                { value: "3 ans", label: "SQL" },
-                { value: "2", label: "Expériences" },
-              ].map((stat) => (
-                <div key={stat.label} className="flex flex-col">
-                  <span className="text-2xl font-black" style={{ color: "#4a9eff" }}>{stat.value}</span>
-                  <span className="text-xs text-slate-400 mt-0.5">{stat.label}</span>
-                </div>
-              ))}
-            </div>
-
             {/* Séparateur */}
             <div className="mb-8" style={{ height: "1px", background: "rgba(74,158,255,0.15)" }} />
 
