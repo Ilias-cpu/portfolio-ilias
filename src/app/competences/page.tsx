@@ -53,17 +53,18 @@ export default function Competences() {
               style={{
                 background: "#111f3a",
                 borderRadius: "12px",
-                padding: "20px",
+                padding: "24px 28px",
                 marginBottom: "16px",
                 display: "flex",
                 flexDirection: "column",
+                alignItems: "flex-start",
                 width: "100%",
                 overflowX: "hidden",
               }}
             >
               <p
                 className="text-xs font-semibold mb-3 md:mb-0 md:w-44 md:flex-shrink-0"
-                style={{ color: "#4a9eff", letterSpacing: "0.15em" }}
+                style={{ color: "#4a9eff", fontSize: "0.75rem", letterSpacing: "0.15em", textTransform: "uppercase", fontWeight: 600, marginBottom: "12px", textAlign: "left", width: "100%" }}
               >
                 {cat.title}
               </p>
