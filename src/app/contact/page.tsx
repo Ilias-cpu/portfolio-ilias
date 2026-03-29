@@ -50,11 +50,9 @@ export default function Contact() {
           className="mb-14"
         >
           <h1 className="text-white mb-5" style={{ fontSize: "3.5rem", fontWeight: 900, lineHeight: 1.1 }}>
-            Vous recrutez ?
+            Me contacter 
           </h1>
           <p className="text-white mb-3" style={{ fontSize: "1.1rem" }}>
-            Je suis actuellement à la recherche d&apos;une alternance de 3 ans en Data Engineering,
-            Data Analysis ou Développement Web, à partir de septembre 2026.
           </p>
           <p className="text-slate-400" style={{ fontSize: "0.95rem", marginTop: "12px" }}>
             Que vous ayez une opportunité, un conseil à me partager, ou que vous connaissiez quelqu&apos;un
