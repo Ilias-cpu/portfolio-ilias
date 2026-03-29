@@ -22,7 +22,7 @@ const categories = [
 
 export default function Competences() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-8 py-24">
+    <section className="min-h-screen px-4 sm:px-6 md:px-12 py-24">
       <div className="max-w-5xl w-full mx-auto">
 
         {/* En-tête */}
@@ -38,7 +38,7 @@ export default function Competences() {
           >
             Compétences Techniques
           </span>
-          <h1 className="text-6xl font-black text-white uppercase">Compétences</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-black text-white mb-10 uppercase">Compétences</h1>
         </motion.div>
 
         {/* Blocs empilés */}
@@ -57,6 +57,8 @@ export default function Competences() {
                 marginBottom: "16px",
                 display: "flex",
                 flexDirection: "column",
+                width: "100%",
+                overflowX: "hidden",
               }}
             >
               <p

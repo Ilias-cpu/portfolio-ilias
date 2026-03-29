@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-8 py-20">
+    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-12 py-20">
       <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 md:gap-16 w-full max-w-4xl">
 
         {/* Texte gauche */}
@@ -24,14 +24,14 @@ export default function Home() {
             Data &amp; IA Portfolio
           </motion.span>
 
-          <h1 className="text-4xl md:text-6xl font-black leading-tight mb-4 uppercase text-white">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black leading-tight mb-4 uppercase text-white">
             ILIAS
           </h1>
           <h1 className="text-4xl md:text-6xl font-black leading-tight mb-4 uppercase" style={{ color: "#4a9eff" }}>
             MESSAOUDI
           </h1>
 
-          <p className="text-slate-400 text-lg mb-8 max-w-lg leading-relaxed">
+          <p className="text-slate-400 text-base md:text-lg mb-6 w-full max-w-lg leading-relaxed">
             Étudiant en classe préparatoire intégrée en école d'ingénieur et voulant évoluer dans les domaines de la    {" "}
             <span className="text-white font-semibold">  Data et de l'IA</span>,
             je recherche une alternance de 3 ans à partir de septembre 2026 en tant que{" "}
@@ -45,7 +45,7 @@ export default function Home() {
           </p>
 
           {/* Cards info */}
-          <div className="flex flex-col md:flex-row gap-3 mb-6">
+          <div className="flex flex-col md:flex-row gap-3 mb-6 w-full">
             {[
               {
                 icon: (
@@ -80,11 +80,10 @@ export default function Home() {
             ].map((card) => (
               <div
                 key={card.title}
-                className="flex-1 w-full"
+                className="w-full p-3 md:p-4"
                 style={{
                   background: "#111f3a",
                   borderRadius: "10px",
-                  padding: "16px 20px",
                   display: "flex",
                   flexDirection: "column",
                   gap: "6px",
@@ -101,7 +100,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="flex flex-wrap gap-3 justify-center md:justify-start">
+          <div className="flex flex-wrap gap-2 md:gap-3 justify-start w-full">
             <a
               href="/cv-ilias-messaoudi.pdf"
               download
