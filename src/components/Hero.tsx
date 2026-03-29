@@ -22,7 +22,7 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-wrap gap-3 justify-center md:justify-start">
-            <a href="/CV-Ilias-Messaoudi.pdf" download="CV-Ilias-MESSAOUDI.pdf" style={{background: "#4a9eff"}} className="font-bold px-6 py-2 rounded-full text-white transition">
+            <a href="/CV-Ilias-MESSAOUDI.pdf" download="CV-Ilias-MESSAOUDI.pdf" style={{background: "#4a9eff"}} className="font-bold px-6 py-2 rounded-full text-white transition">
               CV
             </a>
             <a href="https://linkedin.com/in/ton-profil" target="_blank" style={{borderColor: "#4a9eff", color: "#4a9eff"}} className="font-bold px-6 py-2 rounded-full border transition">
