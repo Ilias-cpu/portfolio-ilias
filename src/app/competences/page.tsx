@@ -49,27 +49,27 @@ export default function Competences() {
               initial={{ opacity: 0, x: -40 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
+              className="flex flex-col md:flex-row md:items-center"
               style={{
                 background: "#111f3a",
                 borderRadius: "12px",
-                padding: "24px 28px",
+                padding: "20px",
                 marginBottom: "16px",
+                display: "flex",
+                flexDirection: "column",
               }}
             >
               <p
-                style={{
-                  color: "#4a9eff",
-                  fontSize: "0.75rem",
-                  letterSpacing: "0.15em",
-                  textTransform: "uppercase",
-                  fontWeight: 600,
-                  marginBottom: "12px",
-                }}
+                className="text-xs font-semibold mb-3 md:mb-0 md:w-44 md:flex-shrink-0"
+                style={{ color: "#4a9eff", letterSpacing: "0.15em" }}
               >
                 {cat.title}
               </p>
-              <div style={{ height: "1px", background: "#4a9eff", marginBottom: "16px", opacity: 0.4 }} />
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
+              <div
+                className="hidden md:block w-px self-stretch mx-8"
+                style={{ background: "#4a9eff" }}
+              />
+              <div className="flex flex-wrap gap-2 mt-2 md:mt-0">
                 {cat.items.map((item) => (
                   <span
                     key={item}

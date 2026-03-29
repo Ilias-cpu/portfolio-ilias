@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <section className="min-h-screen flex items-center justify-center px-8 py-20">
-      <div className="max-w-6xl w-full mx-auto flex flex-col md:flex-row items-center justify-between gap-16">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 md:gap-16 w-full max-w-4xl">
 
         {/* Texte gauche */}
         <motion.div
@@ -24,10 +24,10 @@ export default function Home() {
             Data &amp; IA Portfolio
           </motion.span>
 
-          <h1 className="text-7xl font-black leading-none mb-2 uppercase tracking-tight text-white">
+          <h1 className="text-4xl md:text-6xl font-black leading-tight mb-4 uppercase text-white">
             ILIAS
           </h1>
-          <h1 className="text-7xl font-black leading-none mb-8 uppercase tracking-tight" style={{ color: "#4a9eff" }}>
+          <h1 className="text-4xl md:text-6xl font-black leading-tight mb-4 uppercase" style={{ color: "#4a9eff" }}>
             MESSAOUDI
           </h1>
 
@@ -45,7 +45,7 @@ export default function Home() {
           </p>
 
           {/* Cards info */}
-          <div className="flex flex-col md:flex-row" style={{ gap: "16px", marginBottom: "24px" }}>
+          <div className="flex flex-col md:flex-row gap-3 mb-6">
             {[
               {
                 icon: (
@@ -80,11 +80,11 @@ export default function Home() {
             ].map((card) => (
               <div
                 key={card.title}
+                className="flex-1 w-full"
                 style={{
                   background: "#111f3a",
                   borderRadius: "10px",
                   padding: "16px 20px",
-                  flex: 1,
                   display: "flex",
                   flexDirection: "column",
                   gap: "6px",
@@ -101,7 +101,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-3 justify-center md:justify-start">
             <a
               href="/cv-ilias-messaoudi.pdf"
               download
@@ -143,8 +143,8 @@ export default function Home() {
           initial={{ opacity: 0, scale: 0.85 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.9, delay: 0.2 }}
-          className="relative flex-shrink-0"
-          style={{ width: "320px", height: "320px", marginTop: "-40px", marginLeft: "-20px" }}
+          className="relative w-48 h-48 md:w-64 md:h-64 flex-shrink-0"
+          style={{ marginTop: "-40px", marginLeft: "-20px" }}
         >
           {/* Halo lumineux */}
           <div
