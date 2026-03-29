@@ -102,8 +102,8 @@ export default function Home() {
 
           <div className="flex flex-wrap gap-2 md:gap-3 justify-start w-full">
             <a
-              href="/cv-ilias-messaoudi.pdf"
-              download
+              href="/CV-Ilias-Messaoudi.pdf"
+              download="CV-Ilias-Messaoudi.pdf"
               className="font-bold px-6 py-3 rounded-full text-sm transition-all duration-200 hover:scale-105"
               style={{ background: "#4a9eff", color: "#060f1e" }}
             >

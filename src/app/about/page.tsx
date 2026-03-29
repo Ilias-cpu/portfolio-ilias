@@ -85,8 +85,8 @@ export default function About() {
                 Email
               </a>
               <a
-                href="/cv-ilias-messaoudi.pdf"
-                download
+                href="/CV-Ilias-Messaoudi.pdf"
+                download="CV-Ilias-Messaoudi.pdf"
                 className="font-bold px-6 py-3 rounded-full text-sm transition-all duration-200 hover:scale-105"
                 style={{ border: "1px solid rgba(74,158,255,0.5)", color: "#4a9eff" }}
               >
