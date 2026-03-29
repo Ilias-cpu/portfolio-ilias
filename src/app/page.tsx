@@ -118,7 +118,7 @@ export default function Home() {
             >
               LinkedIn
             </a>
-<a
+            <a
               href="mailto:ilias95messa70@gmail.com"
               className="font-bold px-6 py-3 rounded-full text-sm transition-all duration-200 hover:scale-105"
               style={{ border: "1px solid rgba(74,158,255,0.5)", color: "#4a9eff" }}
