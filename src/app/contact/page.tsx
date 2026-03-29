@@ -39,7 +39,7 @@ const contacts = [
 
 export default function Contact() {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center px-8 py-24">
+    <section className="min-h-screen px-4 sm:px-6 md:px-12 py-24">
       <div className="max-w-4xl w-full mx-auto text-center">
 
         {/* Titre */}
@@ -49,20 +49,20 @@ export default function Contact() {
           transition={{ duration: 0.7 }}
           className="mb-14"
         >
-          <h1 className="text-white mb-5" style={{ fontSize: "3.5rem", fontWeight: 900, lineHeight: 1.1 }}>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-white mb-4 text-center">
             Me contacter 
           </h1>
           <p className="text-white mb-3" style={{ fontSize: "1.1rem" }}>
           </p>
           <p className="text-slate-400" style={{ fontSize: "0.95rem", marginTop: "12px" }}>
             Que vous ayez une opportunité, un conseil à me partager, ou que vous connaissiez quelqu&apos;un
-            qui pourrait être intéressé par mon profil — n&apos;hésitez pas à me contacter.
+            qui pourrait être intéressé par mon profil, n&apos;hésitez pas à me contacter.
             Je suis ouvert à tout échange et je réponds rapidement. Merci d&apos;avance pour votre aide.
           </p>
         </motion.div>
 
         {/* Cards */}
-        <div className="flex flex-col sm:flex-row gap-5 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 mt-10 justify-center w-full">
           {contacts.map((item, i) => (
             <motion.a
               key={item.label}
@@ -72,7 +72,7 @@ export default function Contact() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 + i * 0.12 }}
-              className="flex flex-col items-center gap-5 p-8 transition-all duration-200 hover:scale-105"
+              className="w-full sm:w-auto flex flex-col items-center gap-5 p-8 transition-all duration-200 hover:scale-105"
               style={{
                 background: "#0d1f35",
                 border: "1px solid #4a9eff",
