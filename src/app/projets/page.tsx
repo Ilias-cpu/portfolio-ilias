@@ -186,13 +186,12 @@ export default function Projets() {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
-          className="flex flex-col md:flex-row items-start gap-4 md:gap-8 mb-16"
-          style={{ borderBottom: "1px solid rgba(74,158,255,0.12)" }}
+          className="flex flex-col md:flex-row items-start gap-6 mb-20"
         >
-          <div className="flex-shrink-0 md:w-32">
-            <span className="text-7xl sm:text-8xl md:text-9xl font-black select-none" style={{ color: "#1a2f50" }}>01</span>
+          <div className="flex-shrink-0 w-20 md:w-32">
+            <span className="text-6xl md:text-8xl font-black select-none" style={{ color: "#1a2f50" }}>01</span>
           </div>
-          <div className="flex-1 flex flex-col gap-4 pt-1">
+          <div className="flex-1 min-w-0">
             <h2 className="text-lg sm:text-xl md:text-2xl font-black text-white uppercase mb-3">SAAS DATA SPORTIVES &amp; AUTOMATISATION</h2>
             <p className="text-slate-300 text-base leading-relaxed max-w-2xl">
               Développement d&apos;une plateforme SaaS d&apos;analyse de données sportives avec scraping automatisé,
@@ -229,19 +228,19 @@ export default function Projets() {
             </AnimatePresence>
           </div>
         </motion.div>
+        <hr style={{ borderColor: "#1a2f50", marginBottom: "2rem" }} />
 
         {/* ── PROJET 02 ── */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7, delay: 0.15 }}
-          className="flex flex-col md:flex-row items-start gap-4 md:gap-8 mb-16"
-          style={{ borderBottom: "1px solid rgba(74,158,255,0.12)" }}
+          className="flex flex-col md:flex-row items-start gap-6 mb-20"
         >
-          <div className="flex-shrink-0 md:w-32">
-            <span className="text-7xl sm:text-8xl md:text-9xl font-black select-none" style={{ color: "#1a2f50" }}>02</span>
+          <div className="flex-shrink-0 w-20 md:w-32">
+            <span className="text-6xl md:text-8xl font-black select-none" style={{ color: "#1a2f50" }}>02</span>
           </div>
-          <div className="flex-1 flex flex-col gap-4 pt-1">
+          <div className="flex-1 min-w-0">
             <h2 className="text-lg sm:text-xl md:text-2xl font-black text-white uppercase mb-3">SIMULATEUR V2G – RETOUR SUR INVESTISSEMENT</h2>
             <p className="text-slate-300 text-base leading-relaxed max-w-2xl">
               La technologie Vehicle-to-Grid permet à un véhicule électrique de réinjecter de l&apos;énergie dans le réseau.
@@ -283,18 +282,19 @@ export default function Projets() {
             </AnimatePresence>
           </div>
         </motion.div>
+        <hr style={{ borderColor: "#1a2f50", marginBottom: "2rem" }} />
 
         {/* ── PROJET 03 ── */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="flex flex-col md:flex-row items-start gap-4 md:gap-8 mb-16"
+          className="flex flex-col md:flex-row items-start gap-6 mb-20"
         >
-          <div className="flex-shrink-0 md:w-32">
-            <span className="text-7xl sm:text-8xl md:text-9xl font-black select-none" style={{ color: "#1a2f50" }}>03</span>
+          <div className="flex-shrink-0 w-20 md:w-32">
+            <span className="text-6xl md:text-8xl font-black select-none" style={{ color: "#1a2f50" }}>03</span>
           </div>
-          <div className="flex-1 flex flex-col gap-4 pt-1">
+          <div className="flex-1 min-w-0">
             <h2 className="text-lg sm:text-xl md:text-2xl font-black text-white uppercase mb-3">AGENTS CONVERSATIONNELS &amp; AUTOMATISATION IA</h2>
             <p className="text-slate-300 text-base leading-relaxed max-w-2xl">
               Conception et déploiement de solutions LLM, chatbots et agents vocaux pour optimiser les processus clients
