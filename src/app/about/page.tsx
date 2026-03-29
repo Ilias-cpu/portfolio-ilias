@@ -69,8 +69,9 @@ export default function About() {
             {/* Boutons */}
             <div className="flex flex-wrap gap-3">
               <a
-                href="/CV-Ilias-Messaoudi.pdf"
-                download="CV-Ilias-Messaoudi.pdf"
+                href="/CV-Ilias-MESSAOUDI.pdf"
+                download="CV-Ilias-MESSAOUDI.pdf"
+                target="_blank"
                 className="font-bold px-6 py-3 rounded-full text-sm transition-all duration-200 hover:scale-105"
                 style={{ background: "#4a9eff", color: "#060f1e" }}
               >
