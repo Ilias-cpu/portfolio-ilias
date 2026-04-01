@@ -34,13 +34,13 @@ export default function Home() {
           <p className="text-slate-400 text-base md:text-lg mb-6 w-full max-w-lg leading-relaxed">
             Étudiant en classe préparatoire intégrée en école d'ingénieur et voulant évoluer dans les domaines de la    {" "}
             <span className="text-white font-semibold">  Data et de l'IA</span>,
-            je recherche une alternance de 3 ans à partir de septembre 2026 en tant que{" "}
+            je recherche une alternance de 3 ans à partir de septembre 2026 en {" "}
             <span style={{ color: "#4a9eff" }} className="font-semibold">
-              Data Engineer, Data Analyst, Data Scientist
+              IA Appliquée, Data Engineering, Data Science 
             </span>{" "}
             ou{" "}
             <span style={{ color: "#4a9eff" }} className="font-semibold">
-              Développeur Web
+              Automatisation 
             </span>
           </p>
 
