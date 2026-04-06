@@ -38,7 +38,7 @@ export default function About() {
             </span>
 
             <p className="text-slate-300 text-lg leading-relaxed mb-4">
-              Depuis tout petit, le sport a toujours été au c&oelig;ur de ma vie,
+              Depuis tout petit, le sport a toujours été au c&oelig;ur de ma vie :
               course à pieds, renforcement musculaire, sports de combat.
               À un moment, j&apos;ai senti que je stagnais. Plutôt que d&apos;en faire
               plus, j&apos;ai décidé d&apos;analyser différemment : j&apos;ai commencé à
@@ -68,15 +68,6 @@ export default function About() {
 
             {/* Boutons */}
             <div className="flex flex-wrap gap-3">
-              <a
-                href="/CV-Ilias-MESSAOUDI.pdf"
-                download="CV-Ilias-MESSAOUDI.pdf"
-                target="_blank"
-                className="font-bold px-6 py-3 rounded-full text-sm transition-all duration-200 hover:scale-105"
-                style={{ background: "#4a9eff", color: "#060f1e" }}
-              >
-                Télécharger CV
-              </a>
               <a
                 href="https://linkedin.com/in/ilias-messaoudi"
                 target="_blank"
