@@ -199,7 +199,7 @@ export default function Projets() {
               et le traitement de données en temps réel.
             </p>
             <div className="flex flex-wrap items-center gap-2 mt-1">
-              {["Next.js", "Tailwind CSS", "Supabase", "Python", "Pandas", "SQL"].map((o) => <span key={o} style={badgeStyle}>{o}</span>)}
+              {["Python", "SQL", "Pandas", "Scikit-learn", "n8n", "API REST", "Supabase", "Next.js", "Vercel"].map((o) => <span key={o} style={badgeStyle}>{o}</span>)}
               <button onClick={() => setOpen01(!open01)} style={btnStyle}>{open01 ? "Réduire ↑" : "En savoir plus →"}</button>
             </div>
             <AnimatePresence>
@@ -247,7 +247,7 @@ export default function Projets() {
               Une technologie prometteuse, encore très peu documentée. Notre équipe a voulu savoir : est-ce vraiment rentable ?
             </p>
             <div className="flex flex-wrap items-center gap-2 mt-1">
-              {["Python", "Matplotlib", "Numpy", "API", "SQL", "Données réelles", "Simulation prédictive", "Power BI"].map((o) => <span key={o} style={badgeStyle}>{o}</span>)}
+              {["Python", "Next.js", "Plotly", "SQL", "API", "Données réelles", "Simulation prédictive", "Scikit-learn", "Chatbot IA"].map((o) => <span key={o} style={badgeStyle}>{o}</span>)}
               <button onClick={() => setOpen02(!open02)} style={btnStyle}>{open02 ? "Réduire ↑" : "En savoir plus →"}</button>
             </div>
             <AnimatePresence>
@@ -301,7 +301,7 @@ export default function Projets() {
               d&apos;une startup. Workflows automatisés multicanaux sur n8n et Make.
             </p>
             <div className="flex flex-wrap items-center gap-2 mt-1">
-              {["LLM", "n8n", "Make", "Airtable", "Supabase", "API REST", "Python"].map((o) => <span key={o} style={badgeStyle}>{o}</span>)}
+              {["LLM", "LangChain", "RAG", "NLP", "OpenAI/Anthropic API", "n8n", "Make", "API REST", "Python", "Airtable", "Supabase"].map((o) => <span key={o} style={badgeStyle}>{o}</span>)}
               <a
                 href="https://www.linkedin.com/posts/ilias-messaoudi_jai-choisi-lexp%C3%A9rience-avant-de-partir-activity-7427730263289483264-4RHg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF5ppzABBWnbjeiuihAFJUFMvoCjrRpdjpU"
                 target="_blank"
