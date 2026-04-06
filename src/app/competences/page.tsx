@@ -8,15 +8,15 @@ const categories = [
   },
   {
     title: "DATA & BDD",
-    items: ["Pandas", "Numpy", "Matplotlib", "MySQL", "Supabase", "Airtable", "Power BI"],
+    items: ["Pandas", "NumPy", "Matplotlib", "Plotly", "MySQL", "Supabase", "Airtable", "Power BI", "Power Query", "Excel"],
   },
   {
     title: "AUTOMATISATION & IA",
-    items: ["n8n", "Make", "LLM / Agents IA", "API REST", "Next.js", "React", "VueJS"],
+    items: ["LLM", "Agents autonomes", "RAG", "LangChain", "NLP", "Prompt engineering", "OpenAI/Anthropic API", "Claude Code", "n8n", "Make", "API REST", "Scikit-learn"],
   },
   {
     title: "OUTILS & HÉBERGEMENT",
-    items: ["Git", "VS Code", "Vercel", "Hostinger", "Azure (en cours)"],
+    items: ["Git/GitHub", "Jira", "Confluence", "VS Code", "Vercel", "Azure (en cours)"],
   },
 ];
 
